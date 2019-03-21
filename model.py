@@ -7,7 +7,6 @@ from keras.preprocessing import image
 import numpy as np
 from keras.applications.inception_v3 import InceptionV3
 from keras.models import Model
-import utils
 from tqdm import tqdm
 import os
 import pickle

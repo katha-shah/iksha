@@ -21,11 +21,10 @@ def beam_search_predictions(vocab, enc_img, decoding_model, caption_maxlen, beam
         temp = []
         for s in start_word:
             par_caps = sequence.pad_sequences([s[0]], maxlen=caption_maxlen, padding='post')
-            #enc_img = encoding_model.encode_single_img(file_path=cfg.images_path, img_name=img_name)
+            # enc_img = encoding_model.encode_single_img(file_path=cfg.images_path, img_name=img_name)
             preds = decoding_model.predict([np.array([enc_img]), np.array(par_caps)])
             word_pred_debug = vocab.idx2word[np.argmax(preds[0])]
             # print(len(preds), word_pred_debug)
-
 
             # Getting the top <beam_index>(n) predictions and creating a
             # new list so as to put them via the model again
@@ -77,7 +76,7 @@ def main():
     # Decoder model
     decoder = Decoder(vocab_size=len(vocab), embedding_size=300, input_shape=2048, caption_max_len=caption_maxlen)
     decoder_model = decoder.get_model()
-    decoder_model.load_weights('best_weights.97-0.95.hdf5')
+    decoder_model.load_weights('model/best_weights.97-0.95.hdf5')
 
     img_ids = data.get_val_images(cfg.val_image_files)
     img_name = img_ids[19]
@@ -101,17 +100,11 @@ def main():
     print(full_img_path)
     print(' '.join(caption[1:-1]))
 
-    caption_3 = beam_search_predictions(vocab, enc_img, decoder_model, caption_maxlen,
-                                        beam_index=2)
-    caption_5 = beam_search_predictions(vocab, enc_img, decoder_model, caption_maxlen,
-                                        beam_index=5)
-    caption_7 = beam_search_predictions(vocab, enc_img, decoder_model, caption_maxlen,
-                                        beam_index=7)
-
-    print("3", caption_3)
-    print("5", caption_5)
-    print("7", caption_7)
-    # plt.show()
+    for beam_size in [3, 5, 7]:
+        caption = beam_search_predictions(vocab, enc_img, decoder_model, caption_maxlen,
+                                          beam_index=beam_size)
+        print(beam_size, caption)
+        # plt.show()
 
 
 if __name__ == '__main__':

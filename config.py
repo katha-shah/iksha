@@ -8,7 +8,9 @@ class Config(object):
 	train_image_files = os.path.join(text_path, 'Flickr_8k.trainImages.txt')
 	val_image_files = os.path.join(text_path, 'Flickr_8k.devImages.txt')
 	test_image_files = os.path.join(text_path, 'Flickr_8k.testImages.txt')
-
+	#
 	# pickle files
+	#
+	vocab_path = "."
 	vocab_name = "vocab.pkl"
 	train_img_encoding_file = os.path.join(data_path, "train_encod.pkl")

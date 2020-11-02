@@ -36,6 +36,11 @@ meaningful sentences in plain English language.*
 • **Describes with minor errors** </br>
 ![image](https://user-images.githubusercontent.com/24832637/97820026-ff43be80-1c60-11eb-9cf9-d328125d7def.png)
 
+• **Somewhat related to the image** </br>
+• **Completely unrelated**</br>
+
+
+
 
 
 

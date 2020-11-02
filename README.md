@@ -34,10 +34,12 @@ meaningful sentences in plain English language.*
 ![image](https://user-images.githubusercontent.com/24832637/97819663-e76b3b00-1c5e-11eb-820f-b4484a31102a.png)
 
 </br>
-• *Describes with minor errors*
-
-• *Somewhat related to the image*
-• *Completely unrelated*
+• *Describes with minor errors*</br>
+ ![image](https://user-images.githubusercontent.com/24832637/97819848-074f2e80-1c60-11eb-8784-555feb59e05d.png)
+• *Somewhat related to the image*</br>
+![image](https://user-images.githubusercontent.com/24832637/97819856-0e763c80-1c60-11eb-821b-9d36120562e5.png)
+• *Completely unrelated*</br>
+![image](https://user-images.githubusercontent.com/24832637/97819857-146c1d80-1c60-11eb-9896-c0cd40ad8025.png)
 
 
 

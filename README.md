@@ -37,8 +37,11 @@ meaningful sentences in plain English language.*
 ![image](https://user-images.githubusercontent.com/24832637/97820026-ff43be80-1c60-11eb-9cf9-d328125d7def.png)
 
 • **Somewhat related to the image** </br>
-• **Completely unrelated**</br>
+![image](https://user-images.githubusercontent.com/24832637/97820158-aa547800-1c61-11eb-9528-3a964a50a450.png)
 
+
+• **Completely unrelated**</br>
+![image](https://user-images.githubusercontent.com/24832637/97820163-afb1c280-1c61-11eb-8369-eff1bd1d7928.png)
 
 
 

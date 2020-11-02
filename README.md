@@ -29,7 +29,16 @@ meaningful sentences in plain English language.*
   
  ### Results
  
+ Upon running the model for 70 epochs, we’ve attained BLEU score ~ 0.56 which is pretty good given the limited training dataset and computation power. </br>
 • *Describes without error*
+![image](https://user-images.githubusercontent.com/24832637/97819663-e76b3b00-1c5e-11eb-820f-b4484a31102a.png)
+
+</br>
+• *Describes with minor errors*
+
+• *Somewhat related to the image*
+• *Completely unrelated*
+
 
 
   

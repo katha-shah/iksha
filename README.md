@@ -33,8 +33,9 @@ meaningful sentences in plain English language.*
 • **Describes without error** </br>
   ![image](https://user-images.githubusercontent.com/24832637/97819663-e76b3b00-1c5e-11eb-820f-b4484a31102a.png)
 
-</br>
 • **Describes with minor errors** </br>
+![image](https://user-images.githubusercontent.com/24832637/97820026-ff43be80-1c60-11eb-9cf9-d328125d7def.png)
+
 
 
 

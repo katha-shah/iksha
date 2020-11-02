@@ -13,3 +13,22 @@ processing the data. Also we use tranfer learning to use the pre-trained model o
 our input sets. Language model will make use of NLP concepts to generate the
 meaningful sentences in plain English language.*
 
+#### [Dataset](https://forms.illinois.edu/sec/229675)
+* FLICKR30k - Contains 30,000 images with its caption in English language splitting 1000 images for validation and 1000 images for Testing
+
+#### Architecture
+*Encoder* </br></br>
+  • CNN can be thought of as an Encoder. </br>
+  •  CNN is a widely used image feature extraction technique for object detection and image classification. Transfer learning is used to obtain the features of the images from       the       dataset </br>
+
+*Decoder* </br></br>
+• Decoder is the LSTM </br>
+• Language modelling is done at the word level. </br>
+• The first time step receives the encoded output from the encoder and also the <START> vector.
+  
+  
+
+
+
+
+
